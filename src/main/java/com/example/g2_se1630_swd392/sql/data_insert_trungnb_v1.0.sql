@@ -1,0 +1,15 @@
+insert into users (id, active, created_by, created_date, updated_by, updated_date, email, email_verified, name, password, phone_number, picture, role_id, username)
+values  (1, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user1@gmail.com', true, 'user1', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user1'),
+        (2, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user2@gmail.com', true, 'user2', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user2'),
+        (3, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user3@gmail.com', true, 'user3', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user3'),
+        (4, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user4@gmail.com', true, 'user4', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user4'),
+        (5, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user5@gmail.com', true, 'user5', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user5'),
+        (6, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'teacher@gmail.com', true, 'teacher', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 2, 'teacher'),
+        (7, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'manager@gmail.com', true, 'manager', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 3, 'manager'),
+        (8, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'admin@gmail.com', true, 'admin', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 4, 'admin'),
+        (9, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user6@gmail.com', true, 'user6', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user6'),
+        (10, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user7@gmail.com', true, 'user7', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user7'),
+        (11, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user8@gmail.com', true, 'user8', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user8'),
+        (12, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user9@gmail.com', true, 'user9', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user9'),
+        (13, true, null, '2023-10-08 00:37:45.000000', null, '2023-10-08 00:37:45.000000', 'user10@gmail.com', true, 'user10', '$2a$10$luZBY/WZ73m3ztu48mPi9erHpp4nXFKOmxdqN3bndVtH.mCkNqTAq', '0000000000', null, 1, 'user10');
+

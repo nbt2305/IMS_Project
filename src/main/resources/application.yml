@@ -1,0 +1,98 @@
+server:
+  port: 8088
+  error:
+    include-message: always
+logging:
+  level:
+    ROOT: INFO
+    org.hibernate.SQL: INFO
+spring:
+  cors:
+    allowed-origins: "*"
+    allowed-methods: "GET, POST, PUT, DELETE, OPTIONS"
+    allowed-headers: "*"
+    allow-credentials: true
+    max-age: 3600
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: G2_SE1630_SWD392
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  cache:
+    type: redis
+    redis:
+      host: localhost
+      port: 6397
+      time-to-live: 1000000
+  profiles:
+    active: docker
+  security:
+    user:
+      name: user
+      password: password
+      roles: USER
+    jwt:
+      secret: mySecretKey
+      expirationMs: 3600000
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 507962100872-amaltasp4otajhbjndb8cl7thkmg8uau.apps.googleusercontent.com
+            client-secret: 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
+
+
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  datasource:
+#    url: jdbc:mysql://163.123.183.82:18913/swd392
+#    username: admin
+#    password: CqoKYZxz
+    url: jdbc:mysql://localhost:3306/swd392
+    username: root
+    password: 2305
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: trungab2305@gmail.com
+#    password: rvtguycoezcklrun
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: e5b0b6a9ca4cb8
+    password: 919d6d046d4602
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+# Send phone number
+twilio:
+  accountSid: AC6a3a7fb6777255f66afa2e542acfe483
+  authToken: c5129288d5565dbe8234a3bc5637a0d0
+  phoneNumber: +18787688201
